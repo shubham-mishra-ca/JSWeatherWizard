@@ -289,6 +289,20 @@ border-radius: var(--radius-pill);
 \*-----------------------------------*/
 
 
+.header-actions {
+  gap: 24px;
+}
+.header .btn-primary {
+  padding-inline: 16px 24px;
+}
+.header .btn-primary .span {
+  display: block;
+}
+.search-view {
+  -webkit-clip-path: circle(3% at calc(100% - 273px) 6%);
+  clip-path: circle(3% at calc(100% - 273px) 6%);
+}
+
 
 
 
