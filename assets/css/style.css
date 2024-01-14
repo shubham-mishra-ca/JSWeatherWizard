@@ -309,6 +309,38 @@ border-radius: var(--radius-pill);
 /*-----------------------------------*\
   #CURRENT WEATHER
 \*-----------------------------------*/
+.current-weather-card .weapper {
+  margin-block: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.current-weather-card .weather-icon {
+  margin-inline: auto;
+}
+.current-weather-card > .body-3 {
+  text-transform: capitalize;
+}
+.current-weather-card .meta-list {
+  -webkit-margin-before: 16px;
+  margin-block-start: 16px;
+  -webkit-padding-before: 16px;
+  padding-block-start: 16px;
+  -webkit-border-before: 1px solid var(--outline);
+  border-block-start: 1px solid var(--outline);
+}
+.current-weather-card .meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.current-weather-card .meta-item:not(:last-child) {
+  -webkit-margin-after: 12px;
+  margin-block-end: 12px;
+}
+.current-weather-card .meta-text {
+  color: var(--on-surface-variant);
+}
 
 
 
